@@ -1,0 +1,421 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    color: #4D533C;
+    line-height: normal;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    height: 100%;
+    max-width: 1440px;
+    padding: 0 15px;
+}
+
+.arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid white;
+    border-top: 4px solid transparent;
+    transform: rotate(90deg);
+    margin-right: 4px;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 50px 50px 100px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main__companies {
+    /* margin-bottom: 120px; */
+}
+
+.main__whatdo {
+}
+
+.main__project {
+    margin-bottom: 120px;
+}
+.main__balenc {
+}
+
+/* ========================= HEADER-TOP ====================== */
+
+
+.header {
+    height: 100vh;
+    background: url(../images/bg-photo.jpg) center center / cover no-repeat;
+    background-attachment: fixed; 
+}
+
+.header__top {
+    padding-top: 25px;
+    margin: 0px 165px;
+    height: 75px;
+    margin-bottom: 80px;
+}
+
+.header__top-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__top-logo {
+}
+.logo {
+}
+.header__top-menu {
+}
+
+/* ========================= HEADER-BODY ====================== */
+
+.header__body {
+}
+.header__body-content {
+    margin: 0 165px;
+    color: #fff;
+}
+.header__body-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.header__body-title {
+    width: 620px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 123%;
+    margin-bottom: 25px;
+}
+.header__body-text {
+    width: 580px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162%;
+    margin-bottom: 45px;
+}
+.header__body-btn {
+    display: flex;
+    align-items: center;
+    width: 125px;
+    transition: all .3s;
+}
+
+.header__body-btn:hover .arrow{
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #FFD723;
+}
+.header__body-btn:hover .button{
+    color: #FFD723;
+    text-decoration: underline;
+}
+
+.header__body-button {
+}
+
+
+/* ========================= COMPANIES ====================== */
+
+
+.companies {
+}
+.companies__inner {
+    
+}
+.companies__block {
+    margin-top: -80px;
+    margin-left: 500px;
+    width: 1280px;
+    height: 200px;
+    z-index: 100;
+}
+
+.companies__list {
+    display: flex;
+}
+.companies__item {
+    margin-right: 60px;
+}
+.companies__item img{
+    width: 150px;
+    height: 110px;
+}
+.companies__item:last-child {
+    margin-right: 0px;
+}
+
+/* ========================= WHATDO ====================== */
+
+
+
+.whatdo {
+}
+.whatdo__inner {
+    display: flex;
+}
+.whatdo__content {
+    margin-left: 165px;
+    margin-right: 160px;
+    margin-top: 120px;
+}
+.whatdo__content-subtitle {
+    color: rgba(77, 83, 60, 0.90);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.whatdo__content-title {
+    width: 450px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 128%;
+    margin-bottom: 35px;    
+}
+.whatdo__content-text {
+    color: rgba(33, 56, 66, 0.60);
+    width: 475px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162%;
+    margin-bottom: 42px;
+}
+.whatdo__content-btn {
+    display: flex;
+    align-items: center;
+    width: 190px;
+    transition: all .3s;
+}
+.whatdo__content-btn:hover .whatdo__content-arrow{
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid rgba(33, 56, 66, 0.75);
+    border-top: 4px solid transparent;
+    cursor: pointer;
+}
+.whatdo__content-btn:hover .whatdo__content-button {
+    text-decoration: underline;
+    color: rgba(33, 56, 66, 0.75);
+}
+.whatdo__content-arrow {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #a6a7a6;
+    border-top: 4px solid transparent;
+}
+.whatdo__content-button {
+    color: #a6a7a6;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    transition: all .3s;
+}
+.whatdo__block {
+    width: 480px;
+    height: 650px;
+    margin-top: -120px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    margin-bottom: 300px;
+}
+.whatdo__block-content {
+    margin-top: 120px;
+}
+.whatdo__block-text {
+    color: #4D533C;
+    width: 430px;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 167%;
+    margin-top: 120px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+.whatdo__block-people {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 75px;
+}
+.whatdo__block-photo {
+    margin-left: -30px;
+    margin-right: 30px;
+}
+.whatdo__block-photo img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.whatdo__block-info {
+
+}
+.whatdo__block-name {
+    color: #4D533C;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -10px;
+}
+.whatdo__block-pos {
+    color: #152934;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* ========================= WHATDO ====================== */
+
+
+.project {
+}
+.project__inner {
+    margin-left: 150px;
+}
+.project__content {
+    display: flex;
+    align-items: center;
+}
+.project__content-title {
+    color: #4D533C;
+    width: 325px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 160px;
+}
+.project__content-text {
+    color: rgba(33, 56, 66, 0.60);
+    width: 500px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 163%;
+}
+
+
+/* ========================= WHATDO ====================== */
+
+
+
+.balenc {
+    
+}
+.balenc__inner {
+    display: flex;
+}
+.balenc__image-box {
+    margin-left: -15px;
+    z-index: -1;
+    margin-right: 100px;
+}
+.balenc__image-box img{
+    width: 720px;
+    height: 500px;
+}
+.balenc__block {
+    width: 460px;
+    height: 240px;
+    margin-top: -170px;
+    margin-left: 320px;
+}
+.balenc__block-content {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.balenc__block-quot {
+    color: #4D533C;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 163%;
+    margin-bottom: 25px;
+}
+.balenc__block-people {
+    display: flex;
+}
+.balenc__block-photo {
+    margin-right: 15px;
+}
+.balenc__block-info {
+}
+.balenc__block-name {
+    color: #4D533C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+.balenc__block-pos {
+    color: #152934;
+    font-size: 14px;
+    line-height: normal;
+}
+.balenc__content {
+    margin-top: 70px;
+    width: 475px;
+}
+.balenc__content-title {
+    color: #4D533C;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 133%;
+    margin-bottom: 25px;
+}
+.balenc__content-text {
+    width: 420px;
+    color: rgba(33, 56, 66, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162.5%;
+    margin-bottom: 90px;
+}
+.balenc__content-btn {
+    display: flex;
+    align-items: center;
+}
+.balenc__content-arrow {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #a6a7a6;
+    border-top: 4px solid transparent;
+    transition: all .3s;
+}
+.balenc__content-button {
+    color: #a6a7a6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all .3s;
+}
+
+.balenc__content-btn:hover .balenc__content-arrow {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid rgba(33, 56, 66, 0.75);
+    border-top: 4px solid transparent;
+    cursor: pointer;
+}
+.balenc__content-btn:hover .balenc__content-button {
+    text-decoration: underline;
+    color: rgba(33, 56, 66, 0.75);
+}
